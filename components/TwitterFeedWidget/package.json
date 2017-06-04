@@ -1,0 +1,6 @@
+{
+  "name": "TwitterFeedWidget",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./TwitterFeedWidget.js"
+}

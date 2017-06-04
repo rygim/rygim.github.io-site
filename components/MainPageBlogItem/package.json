@@ -1,0 +1,6 @@
+{
+  "name": "MainPageBlogItem",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./MainPageBlogItem.js"
+}

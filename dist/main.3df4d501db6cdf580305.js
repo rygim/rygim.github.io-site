@@ -29704,7 +29704,7 @@
       }, {
           key: 'render',
           value: function render() {
-              var destination = '/' + this.props.slug;
+              var destination = '/?blog=' + this.props.slug;
               var img = this.props.bannerImage || "http://placehold.it/750x300";
               return _react2.default.createElement(
                   'div',
@@ -35091,7 +35091,7 @@
           });
           return _react2.default.createElement(
             'a',
-            { href: '/' + blog.slug, className: 'list-group-item list-group-item-action flex-column align-items-start' },
+            { href: '/?blog=' + blog.slug, className: 'list-group-item list-group-item-action flex-column align-items-start' },
             _react2.default.createElement(
               'div',
               { className: 'd-flex w-100 justify-content-between' },
@@ -35690,9 +35690,8 @@
         var routePath = undefined;
         var values = _lodash2.default.values(this.props.articles);
   
-        console.log(this.props.context.pathname);
-        if (this.props.context && this.props.context.pathname && this.props.context.pathname.substring(1) !== "") {
-          routePath = this.props.context.pathname.substring(1);
+        if (this.props.context && this.props.context.query && this.props.context.query.blog) {
+          routePath = this.props.context.query.blog;
         }
   
         if (routePath) {
@@ -57882,7 +57881,7 @@
           allowable_tags  = allowable_tags || [];
           tag_replacement = tag_replacement || '';
   
-          var context = init_context(allowable_tags, tag_replacement);
+          let context = init_context(allowable_tags, tag_replacement);
   
           return striptags_internal(html, context);
       }

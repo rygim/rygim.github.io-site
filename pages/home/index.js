@@ -28,9 +28,8 @@ class HomePage extends React.Component {
     var routePath = undefined;
     var values = _.values(this.props.articles);
     
-    console.log(this.props.context.pathname);
-    if(this.props.context && this.props.context.pathname && this.props.context.pathname.substring(1) !== ""){
-      routePath = this.props.context.pathname.substring(1);
+    if(this.props.context && this.props.context.query && this.props.context.query.blog){
+      routePath = this.props.context.query.blog;
     }
    
     if(routePath){

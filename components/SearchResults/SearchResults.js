@@ -25,7 +25,7 @@ class SearchResults extends React.Component {
        var blog = _.find(articles, s => {
           return s.slug === result.ref;
        });
-       return (<a href={'/' + blog.slug} className='list-group-item list-group-item-action flex-column align-items-start'>
+       return (<a href={'/?blog=' + blog.slug} className='list-group-item list-group-item-action flex-column align-items-start'>
                   <div className="d-flex w-100 justify-content-between">
                     <h5 className="mb-1">{blog.title}</h5>
                   </div>

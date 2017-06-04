@@ -8,7 +8,7 @@ class MainPageBlogItem extends React.Component {
   }
 
   render() {
-    var destination = '/' + this.props.slug;
+    var destination = '/?blog=' + this.props.slug;
     const img = this.props.bannerImage || "http://placehold.it/750x300";
     return (
         <div className="card mb-4">

@@ -58736,7 +58736,7 @@
 /* 680 */
 /***/ (function(module, exports) {
 
-  module.exports = {"title":"React Static Boilerplate","html":"<h2>Welcome!</h2>\n<p>This is a single-page application powered by React and Material Design Lite (MDL). 1</p>\n<p><a href=\"https://github.com/kriasoft/react-static-boilerplate\">https://github.com/kriasoft/react-static-boilerplate</a></p>\n"};
+  module.exports = {"title":"rgimmy.com","html":"<h2>Welcome!</h2>\n<p>This is a single-page application powered by React and Material Design Lite (MDL). 1</p>\n<p><a href=\"https://github.com/kriasoft/react-static-boilerplate\">https://github.com/kriasoft/react-static-boilerplate</a></p>\n"};
 
 /***/ }),
 /* 681 */

@@ -1,5 +1,5 @@
 ---
-title: React Static Boilerplate
+title: rgimmy.com
 ---
 
 ## Welcome!

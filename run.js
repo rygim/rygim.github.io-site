@@ -19,8 +19,8 @@ const webpack = require('webpack');
 const config = {
   title: 'rgimmy.com',        // Your website title
   url: 'http://rgimmy.com',          // Your website URL
-  project: 'react-static-boilerplate',      // Firebase project. See README.md -> How to Deploy
-  trackingID: 'UA-XXXXX-Y',                 // Google Analytics Site's ID
+  project: 'rygim-github-io',      // Firebase project. See README.md -> How to Deploy
+  trackingID: 'UA-71610726-1',                 // Google Analytics Site's ID
 };
 
 const tasks = new Map(); // The collection of automation tasks ('clean', 'build', 'publish', etc.)
